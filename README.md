@@ -1,27 +1,51 @@
-#  End-to-End CI/CD Pipeline for a Java Web Application
-This project demonstrates the implementation of a complete CI/CD pipeline for a Java Maven web application using modern DevOps tools on AWS EC2.
+# 🚀 End-to-End CI/CD Pipeline using Jenkins, Maven, SonarQube, Nexus & Tomcat
 
-##  Project Overview
+## 📌 Project Overview
 
-The pipeline automates the entire software delivery process, including:
-- Source Code Management using GitHub
-- Continuous Integration with Jenkins
-- Build Automation using Maven
-- Code Quality Analysis with SonarQube
-- Artifact Management with Nexus Repository
-- Automated Deployment to Apache Tomcat
-- Hosting on AWS EC2 (Ubuntu)
+This project demonstrates the implementation of an automated Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins.
 
-## 🛠️ Tools & Technologies
+The pipeline automates the process of building, testing, analyzing code quality, managing artifacts, and deploying a Java web application.
 
-- GitHub
-- Maven
-- SonarQube
-- Nexus Repository Manager
-- Apache Tomcat
-- AWS EC2 (Ubuntu)
-- Java
-- Maven WAR Project
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Jenkins | CI/CD Automation |
+| Maven | Build Automation |
+| SonarQube | Code Quality Analysis |
+| Nexus Repository | Artifact Management |
+| Apache Tomcat | Application Deployment |
+| AWS EC2 | Cloud Infrastructure |
+| Git & GitHub | Version Control |
+| Ubuntu Linux | Server Administration |
+
+## 🏗️ CI/CD Pipeline Architecture
+
+```text
+Developer
+    |
+    v
+GitHub Repository
+    |
+    v
+Jenkins Pipeline
+    |
+    v
+Maven Build
+    |
+    v
+SonarQube Analysis
+    |
+    v
+Nexus Repository
+    |
+    v
+Apache Tomcat
+    |
+    v
+Deployed Web Application
+
+---
 
 
 ## ⚙️ CI/CD Pipeline Flow
