@@ -57,7 +57,7 @@ Deployed Web Application
 
 
 ## 📂 Project Structure
-
+```text
 Jenkins-Maven-SonarQube-Nexus-Tomcat/
 │
 ├── Screenshots/
@@ -73,7 +73,7 @@ Jenkins-Maven-SonarQube-Nexus-Tomcat/
 ├── pom.xml
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 ## 🔑 Key Features
