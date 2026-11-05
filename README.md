@@ -45,8 +45,6 @@ Apache Tomcat
     v
 Deployed Web Application
 
----
-
 
 ## ⚙️ CI/CD Pipeline Flow
 1. Developer pushes code to GitHub.
@@ -60,54 +58,52 @@ Deployed Web Application
 
 ## 📂 Project Structure
 
-```
-src/
-Jenkinsfile
-pom.xml
-README.md
-architecture/
-screenshots/
-```
+Jenkins-Maven-SonarQube-Nexus-Tomcat/
+│
+├── Screenshots/
+│
+├── architeture/
+│
+├── src/
+│   └── main/
+│       └── webapp/
+│
+├── .gitignore
+├── Jenkinsfile
+├── pom.xml
+├── LICENSE
+└── README.md
 
 ---
 
-## 🏗️ Architecture
+## 🔑 Key Features
 
-https://github.com/ashinantony111/PROJECT--JENKINS-MAVEN-SONARQUBE-NEXUS-TOMCAT/tree/3e27dc8aa7403bc064d651cb794afb3fe20d93cd/architeture
----
-
-## 📸 Project Screenshots
-
-### Jenkins Pipeline
-https://github.com/ashinantony111/PROJECT--JENKINS-MAVEN-SONARQUBE-NEXUS-TOMCAT/blob/b8b5bbedb72dce9e76a26d86b226ca79dd1879de/Screenshots/6.complete-pipeline-success.png
-
-### SonarQube Analysis
-https://github.com/ashinantony111/PROJECT--JENKINS-MAVEN-SONARQUBE-NEXUS-TOMCAT/blob/b8b5bbedb72dce9e76a26d86b226ca79dd1879de/Screenshots/3.sonarqube-analysis-success.png
-
-### Nexus Repository Upload
-https://github.com/ashinantony111/PROJECT--JENKINS-MAVEN-SONARQUBE-NEXUS-TOMCAT/blob/b8b5bbedb72dce9e76a26d86b226ca79dd1879de/Screenshots/4.nexus-artifact-upload.png
-
-### Apache Tomcat Deployment
-https://github.com/ashinantony111/PROJECT--JENKINS-MAVEN-SONARQUBE-NEXUS-TOMCAT/blob/b8b5bbedb72dce9e76a26d86b226ca79dd1879de/Screenshots/5.tomcat-deployment.png
+- Automated CI/CD pipeline using Jenkins.
+- Maven-based Java application build.
+- Static code analysis using SonarQube.
+- Artifact storage using Nexus Repository Manager.
+- Automated deployment using Apache Tomcat.
+- Cloud infrastructure using AWS EC2.
+- Source code management using Git and GitHub.
 
 ---
 
-## ✅ Features
+## 📚 Learning Outcomes
 
-- Automated CI/CD Pipeline
-- Continuous Code Quality Analysis
-- Artifact Version Management
-- Automated Deployment
-- End-to-End DevOps Workflow
-- AWS EC2 Based Infrastructure
+- Hands-on experience with Jenkins CI/CD pipelines.
+- Understanding Maven build lifecycle.
+- Integration of SonarQube with Jenkins.
+- Artifact management using Nexus.
+- Java application deployment using Apache Tomcat.
+- AWS EC2 and Linux server administration.
+- Practical understanding of DevOps automation.
 
 ---
 
 ## 👨‍💻 Author
 
-Ashin Antony
+Afthab CR
 
-LinkedIn: www.linkedin.com/in/ashin-antony-7186b3389
+LinkedIn: www.linkedin.com/in/afthabcr/
 
-GitHub: https://github.com/ashinantony111
-
+GitHub: https://github.com/afthabcr/
