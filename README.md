@@ -44,7 +44,7 @@ Apache Tomcat
     |
     v
 Deployed Web Application
-
+```
 
 ## ⚙️ CI/CD Pipeline Flow
 1. Developer pushes code to GitHub.
